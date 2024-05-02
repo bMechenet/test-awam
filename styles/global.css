@@ -1,0 +1,97 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+
+/*SPECIAL SIZING*/
+.w-80{
+    width : 80%;
+}
+
+.w-40{
+    width : 40%;
+}
+
+.w-35{
+    width : 35%;
+}
+
+.bottom-2{
+    bottom : 2%
+}
+
+.end-2{
+    right : 2%;
+}
+
+.text-xxl{
+    font-size: 5em;
+}
+
+.my-10{
+    margin-top: 5rem!important;
+    margin-bottom : 5rem!important;
+}
+
+.mx-10{
+    margin-left: 5rem!important;
+    margin-right : 5rem!important;
+}
+
+.me-10{
+    margin-right : 5rem!important;
+}
+
+
+/*COLOR*/
+
+.text-blue{
+    color : #00B0E0;
+}
+
+.text-green{
+    color : #006E62;
+}
+
+.text-yellow{
+    color: #FFE292;
+}
+
+.bg-blue{
+    background-color : #00B0E0;
+}
+
+.bg-green{
+    background-color : #006E62;
+}
+
+.bg-yellow{
+    background-color: #FFE292;
+}
+
+@media only screen and (max-width : 768px) {
+    .w-80{
+        width : 100%;
+        padding : 0%;
+    }
+
+    .text-xxl{
+        font-size: 3em;
+    }
+
+    .w-50{
+        width : 100%!important;
+    }
+
+    .w-75{
+        width : 100%;
+    }
+
+    .w-40{
+        width : 100%;
+    }
+    
+    .w-35{
+        width : 100%;
+    }
+}

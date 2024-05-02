@@ -1,0 +1,74 @@
+.first-section{
+    background-image: url("../assets/images/circle-bot.svg"), url("../assets/images/circle-top.svg"), url("../assets/images/bg.png");
+    background-size: auto, auto, cover;
+    background-position: left bottom, right top, center;
+    background-attachment : scroll, scroll, fixed;
+    background-repeat: no-repeat;
+}
+
+.infobulle{
+    transition: transform 0.2s ease-out;
+}
+
+.infobulle:hover{
+    transform: scale(1.1);
+}
+
+
+.papillon{
+    bottom : 25%;
+    right : 20%;
+}
+
+.nuage{
+    top : 15%;
+    left : 10%;
+}
+
+.abeille{
+    bottom : 20%;
+    left : 20%;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+    .first-section{
+        background-size: 30%, 30%, cover;
+    }
+
+    .papillon{
+        bottom : 15%;
+        right : 5%;
+    }
+    .papillon img{
+        transform : scale(0.5);
+    }
+    
+    .nuage{
+        top : 5%;
+        left : 10%;
+    }
+    .nuage img{
+        transform : scale(0.5);
+    }
+    
+    .abeille{
+        bottom : 20%;
+        left : 5%;
+    }
+    .abeille img{
+        transform : scale(0.5);
+    }
+
+    .infobulle{
+        transform: scale(0.5);
+        bottom : -2%;
+        right : -2%;
+        z-index : 1;
+    }
+
+    .infobulle:hover{
+        transform: scale(0.6);
+    }
+}
